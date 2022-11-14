@@ -1,0 +1,10 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/telegram_bot
+spring.datasource.username=telegram_bot_master
+spring.datasource.password=1492$Cortez$
+telegram.bot.token=6290793636:AAGIqfVDV9My8UfMQGfvG5arXo8ZAaY6Bhs // я не смог зарегестрироваться в телеграме.
+  
+  # Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto=update
+
+
+spring.liquibase.change-log=classpath:liquibase/changelog-master.yml
